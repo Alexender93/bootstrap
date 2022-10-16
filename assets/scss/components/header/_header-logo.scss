@@ -1,0 +1,17 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.header-logo {
+background-color: green;
+font-size: 1.5rem;
+letter-spacing: 0.25em;
+&__link {
+display: block;
+}
+  &__accent {
+    display: inline-block;
+border: 3px solid red;
+padding: 20px 10px 20px 10px;
+margin: 10px 10px;
+  }
+}

@@ -1,0 +1,23 @@
+@use "../presets" as *;
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+
+}
+html {
+overflow-y: scroll;
+font-family: $font-main;
+
+}
+a {
+  text-decoration: none;
+  color: $color-light;
+}
+
+h1, h2 {
+font-family: $font-header;
+
+
+}
